@@ -5,7 +5,7 @@ import hashlib
 
 
 @csrf_exempt
-def deploy_webhook(request):
+def webhook(request):
     if request.method == 'POST':
 
         WEBHOOK_SECRET = 'supersecretkey'

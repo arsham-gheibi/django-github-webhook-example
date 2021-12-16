@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
 
-path('deploy_webhook/',
+path('webhook/',
      views.webhook,
      name='webhook'),
